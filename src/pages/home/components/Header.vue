@@ -44,7 +44,7 @@ export default {
             padding-left: .2rem
             color: #ccc
         .header-right
-            wdith: 1.24rem
+            width: 1.24rem
             float: right
             text-align: center
             .arrow-icon
