@@ -22,7 +22,7 @@ export default {
   },
   data () {
     return {
-      keyword: '',
+      keyword: ' ',
       list: [],
       timer: null
     }
