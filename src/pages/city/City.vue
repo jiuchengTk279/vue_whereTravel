@@ -28,7 +28,7 @@ export default {
       letter: ''
     }
   },
-  mounted () {
+  activated () {
     this.getCityInfo()
   },
   methods: {

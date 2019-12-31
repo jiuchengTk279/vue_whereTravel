@@ -2,7 +2,8 @@
   <div id="app">
     <!-- <img src="./assets/logo.png"> -->
     <!-- 显示的是当前路由地址所对应的内容 -->
-    <keep-alive>
+    <!-- Detail不被缓存， exclude可以取消缓存 -->
+    <keep-alive exclude="Detail">
       <router-view/>
     </keep-alive>
   </div>
